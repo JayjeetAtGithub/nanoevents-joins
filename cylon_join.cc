@@ -46,7 +46,7 @@ int main(int argc, char *argv[]) {
   auto join_config = cylon::join::config::JoinConfig(cylon::join::config::JoinType::INNER,
                                                      {487, 488, 489},
                                                      {487, 488, 489},
-                                                     cylon::join::config::JoinAlgorithm::SORT,
+                                                     cylon::join::config::JoinAlgorithm::HASH,
                                                      "l_",
                                                      "r_");
 
