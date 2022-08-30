@@ -1,0 +1,490 @@
+CaloMET_phi: float
+CaloMET_pt: float
+CaloMET_sumEt: float
+nElectron: int64
+Electron_deltaEtaSC: list<item: float>
+Electron_dr03EcalRecHitSumEt: list<item: float>
+Electron_dr03HcalDepth1TowerSumEt: list<item: float>
+Electron_dr03TkSumPt: list<item: float>
+Electron_dxy: list<item: float>
+Electron_dxyErr: list<item: float>
+Electron_dz: list<item: float>
+Electron_dzErr: list<item: float>
+Electron_eCorr: list<item: float>
+Electron_eInvMinusPInv: list<item: float>
+Electron_energyErr: list<item: float>
+Electron_eta: list<item: float>
+Electron_hoe: list<item: float>
+Electron_ip3d: list<item: float>
+Electron_mass: list<item: float>
+Electron_miniPFRelIso_all: list<item: float>
+Electron_miniPFRelIso_chg: list<item: float>
+Electron_mvaFall17Iso: list<item: float>
+Electron_mvaFall17noIso: list<item: float>
+Electron_pfRelIso03_all: list<item: float>
+Electron_pfRelIso03_chg: list<item: float>
+Electron_phi: list<item: float>
+Electron_pt: list<item: float>
+Electron_r9: list<item: float>
+Electron_sieie: list<item: float>
+Electron_sip3d: list<item: float>
+Electron_mvaTTH: list<item: float>
+Electron_charge: list<item: int32>
+Electron_cutBased: list<item: int32>
+Electron_jetIdx: list<item: int32>
+Electron_pdgId: list<item: int32>
+Electron_photonIdx: list<item: int32>
+Electron_tightCharge: list<item: int32>
+Electron_vidNestedWPBitmap: list<item: int32>
+Electron_convVeto: list<item: int8>
+Electron_cutBased_HEEP: list<item: int8>
+Electron_isPFcand: list<item: int8>
+Electron_lostHits: list<item: int16>
+Electron_mvaFall17Iso_WP80: list<item: int8>
+Electron_mvaFall17Iso_WP90: list<item: int8>
+Electron_mvaFall17Iso_WPL: list<item: int8>
+Electron_mvaFall17noIso_WP80: list<item: int8>
+Electron_mvaFall17noIso_WP90: list<item: int8>
+Electron_mvaFall17noIso_WPL: list<item: int8>
+nFatJet: int64
+FatJet_area: list<item: float>
+FatJet_btagCMVA: list<item: float>
+FatJet_btagCSVV2: list<item: float>
+FatJet_btagDeepB: list<item: float>
+FatJet_btagHbb: list<item: float>
+FatJet_eta: list<item: float>
+FatJet_mass: list<item: float>
+FatJet_msoftdrop: list<item: float>
+FatJet_n2b1: list<item: float>
+FatJet_n3b1: list<item: float>
+FatJet_phi: list<item: float>
+FatJet_pt: list<item: float>
+FatJet_tau1: list<item: float>
+FatJet_tau2: list<item: float>
+FatJet_tau3: list<item: float>
+FatJet_tau4: list<item: float>
+FatJet_jetId: list<item: int32>
+FatJet_subJetIdx1: list<item: int32>
+FatJet_subJetIdx2: list<item: int32>
+nGenJetAK8: int64
+GenJetAK8_eta: list<item: float>
+GenJetAK8_mass: list<item: float>
+GenJetAK8_phi: list<item: float>
+GenJetAK8_pt: list<item: float>
+nGenJet: int64
+GenJet_eta: list<item: float>
+GenJet_mass: list<item: float>
+GenJet_phi: list<item: float>
+GenJet_pt: list<item: float>
+nGenPart: int64
+GenPart_eta: list<item: float>
+GenPart_mass: list<item: float>
+GenPart_phi: list<item: float>
+GenPart_pt: list<item: float>
+GenPart_genPartIdxMother: list<item: int32>
+GenPart_pdgId: list<item: int32>
+GenPart_status: list<item: int32>
+GenPart_statusFlags: list<item: int32>
+nSubGenJetAK8: int64
+SubGenJetAK8_eta: list<item: float>
+SubGenJetAK8_mass: list<item: float>
+SubGenJetAK8_phi: list<item: float>
+SubGenJetAK8_pt: list<item: float>
+Generator_binvar: float
+Generator_scalePDF: float
+Generator_weight: float
+Generator_x1: float
+Generator_x2: float
+Generator_xpdf1: float
+Generator_xpdf2: float
+Generator_id1: int32
+Generator_id2: int32
+nGenVisTau: int64
+GenVisTau_eta: list<item: float>
+GenVisTau_mass: list<item: float>
+GenVisTau_phi: list<item: float>
+GenVisTau_pt: list<item: float>
+GenVisTau_charge: list<item: int32>
+GenVisTau_genPartIdxMother: list<item: int32>
+GenVisTau_status: list<item: int32>
+genWeight: float
+LHEWeight_originalXWGTUP: float
+nLHEPdfWeight: int64
+LHEPdfWeight: list<item: float>
+nLHEScaleWeight: int64
+LHEScaleWeight: list<item: float>
+nIsoTrack: int64
+IsoTrack_dxy: list<item: float>
+IsoTrack_dz: list<item: float>
+IsoTrack_eta: list<item: float>
+IsoTrack_pfRelIso03_all: list<item: float>
+IsoTrack_pfRelIso03_chg: list<item: float>
+IsoTrack_phi: list<item: float>
+IsoTrack_pt: list<item: float>
+IsoTrack_miniPFRelIso_all: list<item: float>
+IsoTrack_miniPFRelIso_chg: list<item: float>
+IsoTrack_pdgId: list<item: int32>
+IsoTrack_isHighPurityTrack: list<item: int8>
+IsoTrack_isPFcand: list<item: int8>
+nJet: int64
+Jet_area: list<item: float>
+Jet_btagCMVA: list<item: float>
+Jet_btagCSVV2: list<item: float>
+Jet_btagDeepB: list<item: float>
+Jet_btagDeepC: list<item: float>
+Jet_btagDeepFlavB: list<item: float>
+Jet_chEmEF: list<item: float>
+Jet_chHEF: list<item: float>
+Jet_eta: list<item: float>
+Jet_mass: list<item: float>
+Jet_neEmEF: list<item: float>
+Jet_neHEF: list<item: float>
+Jet_phi: list<item: float>
+Jet_pt: list<item: float>
+Jet_qgl: list<item: float>
+Jet_rawFactor: list<item: float>
+Jet_bReg: list<item: float>
+Jet_electronIdx1: list<item: int32>
+Jet_electronIdx2: list<item: int32>
+Jet_jetId: list<item: int32>
+Jet_muonIdx1: list<item: int32>
+Jet_muonIdx2: list<item: int32>
+Jet_nConstituents: list<item: int32>
+Jet_nElectrons: list<item: int32>
+Jet_nMuons: list<item: int32>
+Jet_puId: list<item: int32>
+LHE_HT: float
+LHE_HTIncoming: float
+LHE_Vpt: float
+LHE_Njets: int16
+LHE_Nb: int16
+LHE_Nc: int16
+LHE_Nuds: int16
+LHE_Nglu: int16
+LHE_NpNLO: int16
+LHE_NpLO: int16
+nLHEPart: int64
+LHEPart_pt: list<item: float>
+LHEPart_eta: list<item: float>
+LHEPart_phi: list<item: float>
+LHEPart_mass: list<item: float>
+LHEPart_pdgId: list<item: int32>
+GenMET_phi: float
+GenMET_pt: float
+MET_MetUnclustEnUpDeltaX: float
+MET_MetUnclustEnUpDeltaY: float
+MET_covXX: float
+MET_covXY: float
+MET_covYY: float
+MET_phi: float
+MET_pt: float
+MET_significance: float
+MET_sumEt: float
+nMuon: int64
+Muon_dxy: list<item: float>
+Muon_dxyErr: list<item: float>
+Muon_dz: list<item: float>
+Muon_dzErr: list<item: float>
+Muon_eta: list<item: float>
+Muon_ip3d: list<item: float>
+Muon_mass: list<item: float>
+Muon_miniPFRelIso_all: list<item: float>
+Muon_miniPFRelIso_chg: list<item: float>
+Muon_pfRelIso03_all: list<item: float>
+Muon_pfRelIso03_chg: list<item: float>
+Muon_pfRelIso04_all: list<item: float>
+Muon_phi: list<item: float>
+Muon_pt: list<item: float>
+Muon_ptErr: list<item: float>
+Muon_segmentComp: list<item: float>
+Muon_sip3d: list<item: float>
+Muon_mvaTTH: list<item: float>
+Muon_charge: list<item: int32>
+Muon_jetIdx: list<item: int32>
+Muon_nStations: list<item: int32>
+Muon_nTrackerLayers: list<item: int32>
+Muon_pdgId: list<item: int32>
+Muon_tightCharge: list<item: int32>
+Muon_highPtId: list<item: int16>
+Muon_isPFcand: list<item: int8>
+Muon_mediumId: list<item: int8>
+Muon_softId: list<item: int8>
+Muon_tightId: list<item: int8>
+nPhoton: int64
+Photon_eCorr: list<item: float>
+Photon_energyErr: list<item: float>
+Photon_eta: list<item: float>
+Photon_hoe: list<item: float>
+Photon_mass: list<item: float>
+Photon_mvaID: list<item: float>
+Photon_pfRelIso03_all: list<item: float>
+Photon_pfRelIso03_chg: list<item: float>
+Photon_phi: list<item: float>
+Photon_pt: list<item: float>
+Photon_r9: list<item: float>
+Photon_sieie: list<item: float>
+Photon_charge: list<item: int32>
+Photon_cutBasedBitmap: list<item: int32>
+Photon_electronIdx: list<item: int32>
+Photon_jetIdx: list<item: int32>
+Photon_pdgId: list<item: int32>
+Photon_vidNestedWPBitmap: list<item: int32>
+Photon_electronVeto: list<item: int8>
+Photon_isScEtaEB: list<item: int8>
+Photon_isScEtaEE: list<item: int8>
+Photon_mvaID_WP80: list<item: int8>
+Photon_mvaID_WP90: list<item: int8>
+Photon_pixelSeed: list<item: int8>
+Pileup_nTrueInt: float
+Pileup_nPU: int32
+Pileup_sumEOOT: int32
+Pileup_sumLOOT: int32
+PuppiMET_phi: float
+PuppiMET_pt: float
+PuppiMET_sumEt: float
+RawMET_phi: float
+RawMET_pt: float
+RawMET_sumEt: float
+fixedGridRhoFastjetAll: float
+fixedGridRhoFastjetCentralCalo: float
+fixedGridRhoFastjetCentralNeutral: float
+nGenDressedLepton: int64
+GenDressedLepton_eta: list<item: float>
+GenDressedLepton_mass: list<item: float>
+GenDressedLepton_phi: list<item: float>
+GenDressedLepton_pt: list<item: float>
+GenDressedLepton_pdgId: list<item: int32>
+nSoftActivityJet: int64
+SoftActivityJet_eta: list<item: float>
+SoftActivityJet_phi: list<item: float>
+SoftActivityJet_pt: list<item: float>
+SoftActivityJetHT: float
+SoftActivityJetHT10: float
+SoftActivityJetHT2: float
+SoftActivityJetHT5: float
+SoftActivityJetNjets10: int32
+SoftActivityJetNjets2: int32
+SoftActivityJetNjets5: int32
+nSubJet: int64
+SubJet_btagCMVA: list<item: float>
+SubJet_btagCSVV2: list<item: float>
+SubJet_btagDeepB: list<item: float>
+SubJet_eta: list<item: float>
+SubJet_mass: list<item: float>
+SubJet_n2b1: list<item: float>
+SubJet_n3b1: list<item: float>
+SubJet_phi: list<item: float>
+SubJet_pt: list<item: float>
+SubJet_tau1: list<item: float>
+SubJet_tau2: list<item: float>
+SubJet_tau3: list<item: float>
+SubJet_tau4: list<item: float>
+nTau: int64
+Tau_chargedIso: list<item: float>
+Tau_dxy: list<item: float>
+Tau_dz: list<item: float>
+Tau_eta: list<item: float>
+Tau_leadTkDeltaEta: list<item: float>
+Tau_leadTkDeltaPhi: list<item: float>
+Tau_leadTkPtOverTauPt: list<item: float>
+Tau_mass: list<item: float>
+Tau_neutralIso: list<item: float>
+Tau_phi: list<item: float>
+Tau_photonsOutsideSignalCone: list<item: float>
+Tau_pt: list<item: float>
+Tau_puCorr: list<item: float>
+Tau_rawAntiEle: list<item: float>
+Tau_rawIso: list<item: float>
+Tau_rawIsodR03: list<item: float>
+Tau_rawMVAnewDM2017v2: list<item: float>
+Tau_rawMVAoldDM: list<item: float>
+Tau_rawMVAoldDM2017v1: list<item: float>
+Tau_rawMVAoldDM2017v2: list<item: float>
+Tau_rawMVAoldDMdR032017v2: list<item: float>
+Tau_charge: list<item: int32>
+Tau_decayMode: list<item: int32>
+Tau_jetIdx: list<item: int32>
+Tau_rawAntiEleCat: list<item: int32>
+Tau_idAntiEle: list<item: int16>
+Tau_idAntiMu: list<item: int16>
+Tau_idDecayMode: list<item: int8>
+Tau_idDecayModeNewDMs: list<item: int8>
+Tau_idMVAnewDM2017v2: list<item: int16>
+Tau_idMVAoldDM: list<item: int16>
+Tau_idMVAoldDM2017v1: list<item: int16>
+Tau_idMVAoldDM2017v2: list<item: int16>
+Tau_idMVAoldDMdR032017v2: list<item: int16>
+TkMET_phi: float
+TkMET_pt: float
+TkMET_sumEt: float
+nTrigObj: int64
+TrigObj_pt: list<item: float>
+TrigObj_eta: list<item: float>
+TrigObj_phi: list<item: float>
+TrigObj_l1pt: list<item: float>
+TrigObj_l1pt_2: list<item: float>
+TrigObj_l2pt: list<item: float>
+TrigObj_id: list<item: int32>
+TrigObj_l1iso: list<item: int32>
+TrigObj_l1charge: list<item: int32>
+TrigObj_filterBits: list<item: int32>
+genTtbarId: int32
+nOtherPV: int64
+OtherPV_z: list<item: float>
+PV_ndof: float
+PV_x: float
+PV_y: float
+PV_z: float
+PV_chi2: float
+PV_score: float
+PV_npvs: int32
+PV_npvsGood: int32
+nSV: int64
+SV_dlen: list<item: float>
+SV_dlenSig: list<item: float>
+SV_pAngle: list<item: float>
+Electron_genPartIdx: list<item: int32>
+Electron_genPartFlav: list<item: int16>
+GenJetAK8_partonFlavour: list<item: int32>
+GenJetAK8_hadronFlavour: list<item: int16>
+GenJet_partonFlavour: list<item: int32>
+GenJet_hadronFlavour: list<item: int16>
+Jet_genJetIdx: list<item: int32>
+Jet_hadronFlavour: list<item: int32>
+Jet_partonFlavour: list<item: int32>
+Muon_genPartIdx: list<item: int32>
+Muon_genPartFlav: list<item: int16>
+Photon_genPartIdx: list<item: int32>
+Photon_genPartFlav: list<item: int16>
+MET_fiducialGenPhi: float
+MET_fiducialGenPt: float
+Electron_cleanmask: list<item: int16>
+Jet_cleanmask: list<item: int16>
+Muon_cleanmask: list<item: int16>
+Photon_cleanmask: list<item: int16>
+Tau_cleanmask: list<item: int16>
+SV_chi2: list<item: float>
+SV_eta: list<item: float>
+SV_mass: list<item: float>
+SV_ndof: list<item: float>
+SV_phi: list<item: float>
+SV_pt: list<item: float>
+SV_x: list<item: float>
+SV_y: list<item: float>
+SV_z: list<item: float>
+Tau_genPartIdx: list<item: int32>
+Tau_genPartFlav: list<item: int16>
+L1simulation_step: int8
+HLTriggerFirstPath: int8
+HLT_AK8PFJet360_TrimMass30: int8
+HLT_AK8PFJet380_TrimMass30: int8
+HLT_AK8PFJet400_TrimMass30: int8
+HLT_AK8PFJet420_TrimMass30: int8
+HLT_AK8PFHT750_TrimMass50: int8
+HLT_AK8PFHT800_TrimMass50: int8
+HLT_AK8PFHT850_TrimMass50: int8
+HLT_AK8PFHT900_TrimMass50: int8
+HLT_CaloJet500_NoJetID: int8
+HLT_CaloJet550_NoJetID: int8
+HLT_Trimuon5_3p5_2_Upsilon_Muon: int8
+HLT_DoubleEle25_CaloIdL_MW: int8
+HLT_DoubleEle27_CaloIdL_MW: int8
+HLT_DoubleEle33_CaloIdL_MW: int8
+HLT_DoubleEle24_eta2p1_WPTight_Gsf: int8
+HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_DZ_PFHT350: int8
+HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT350: int8
+HLT_Ele27_Ele37_CaloIdL_MW: int8
+HLT_Mu27_Ele37_CaloIdL_MW: int8
+HLT_Mu37_Ele27_CaloIdL_MW: int8
+HLT_Mu37_TkMu27: int8
+HLT_DoubleMu4_3_Bs: int8
+HLT_DoubleMu4_3_Jpsi_Displaced: int8
+HLT_DoubleMu4_JpsiTrk_Displaced: int8
+HLT_DoubleMu4_LowMassNonResonantTrk_Displaced: int8
+HLT_DoubleMu3_Trk_Tau3mu: int8
+HLT_DoubleMu4_PsiPrimeTrk_Displaced: int8
+HLT_DoubleMu4_Mass8_DZ_PFHT350: int8
+HLT_DoubleMu8_Mass8_PFHT350: int8
+HLT_Mu3_PFJet40: int8
+HLT_Mu7p5_L2Mu2_Jpsi: int8
+HLT_Mu7p5_L2Mu2_Upsilon: int8
+HLT_Mu7p5_Track2_Jpsi: int8
+HLT_Mu7p5_Track3p5_Jpsi: int8
+HLT_Mu7p5_Track7_Jpsi: int8
+HLT_Mu7p5_Track2_Upsilon: int8
+HLT_Mu7p5_Track3p5_Upsilon: int8
+HLT_Mu7p5_Track7_Upsilon: int8
+HLT_DoublePhoton33_CaloIdL: int8
+HLT_DoublePhoton70: int8
+HLT_DoublePhoton85: int8
+HLT_Ele20_WPTight_Gsf: int8
+HLT_Ele20_WPLoose_Gsf: int8
+HLT_Ele20_eta2p1_WPLoose_Gsf: int8
+HLT_DiEle27_WPTightCaloOnly_L1DoubleEG: int8
+HLT_Ele27_WPTight_Gsf: int8
+HLT_Ele32_WPTight_Gsf: int8
+HLT_Ele35_WPTight_Gsf: int8
+HLT_Ele35_WPTight_Gsf_L1EGMT: int8
+HLT_Ele38_WPTight_Gsf: int8
+HLT_Ele40_WPTight_Gsf: int8
+HLT_Ele32_WPTight_Gsf_L1DoubleEG: int8
+HLT_HT450_Beamspot: int8
+HLT_HT300_Beamspot: int8
+HLT_IsoMu20_eta2p1_LooseChargedIsoPFTau27_eta2p1_CrossL1: int8
+HLT_IsoMu20_eta2p1_MediumChargedIsoPFTau27_eta2p1_CrossL1: int8
+HLT_IsoMu20_eta2p1_TightChargedIsoPFTau27_eta2p1_CrossL1: int8
+HLT_IsoMu20_eta2p1_LooseChargedIsoPFTau27_eta2p1_TightID_CrossL1: int8
+HLT_IsoMu20_eta2p1_MediumChargedIsoPFTau27_eta2p1_TightID_CrossL1: int8
+HLT_IsoMu20_eta2p1_TightChargedIsoPFTau27_eta2p1_TightID_CrossL1: int8
+HLT_IsoMu24_eta2p1_LooseChargedIsoPFTau20_SingleL1: int8
+HLT_IsoMu24_eta2p1_MediumChargedIsoPFTau20_SingleL1: int8
+HLT_IsoMu24_eta2p1_TightChargedIsoPFTau20_SingleL1: int8
+HLT_IsoMu24_eta2p1_LooseChargedIsoPFTau20_TightID_SingleL1: int8
+HLT_IsoMu24_eta2p1_MediumChargedIsoPFTau20_TightID_SingleL1: int8
+HLT_IsoMu24_eta2p1_TightChargedIsoPFTau20_TightID_SingleL1: int8
+HLT_IsoMu20: int8
+HLT_IsoMu24: int8
+HLT_IsoMu24_eta2p1: int8
+HLT_IsoMu27: int8
+HLT_IsoMu30: int8
+HLT_UncorrectedJetE30_NoBPTX: int8
+HLT_UncorrectedJetE30_NoBPTX3BX: int8
+HLT_UncorrectedJetE60_NoBPTX3BX: int8
+HLT_UncorrectedJetE70_NoBPTX3BX: int8
+HLT_L1SingleMu18: int8
+HLT_L1SingleMu25: int8
+HLT_L2Mu10: int8
+HLT_L2Mu10_NoVertex_NoBPTX3BX: int8
+HLT_L2Mu10_NoVertex_NoBPTX: int8
+HLT_L2Mu45_NoVertex_3Sta_NoBPTX3BX: int8
+HLT_L2Mu40_NoVertex_3Sta_NoBPTX3BX: int8
+HLT_L2Mu50: int8
+HLT_DoubleL2Mu50: int8
+HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL: int8
+HLT_Mu19_TrkIsoVVL_Mu9_TrkIsoVVL: int8
+HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ: int8
+HLT_Mu19_TrkIsoVVL_Mu9_TrkIsoVVL_DZ: int8
+HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8: int8
+HLT_Mu19_TrkIsoVVL_Mu9_TrkIsoVVL_DZ_Mass8: int8
+HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8: int8
+HLT_Mu19_TrkIsoVVL_Mu9_TrkIsoVVL_DZ_Mass3p8: int8
+HLT_Mu25_TkMu0_Onia: int8
+HLT_Mu30_TkMu0_Onia: int8
+HLT_Mu20_TkMu0_Phi: int8
+HLT_Mu25_TkMu0_Phi: int8
+HLT_Mu20: int8
+HLT_Mu27: int8
+HLT_Mu50: int8
+HLT_Mu55: int8
+HLT_OldMu100: int8
+HLT_TkMu100: int8
+HLT_DiPFJet15_NoCaloMatched: int8
+HLT_DiPFJet25_NoCaloMatched: int8
+HLT_DiPFJet15_FBEta3_NoCaloMatched: int8
+HLT_DiPFJet25_FBEta3_NoCaloMatched: int8
+HLT_DiPFJetAve40: int8
+HLT_DiPFJetAve60: int8
+HLT_DiPFJetAve80: int8
+run: int64
+luminosityBlock: int64
+event: int64
