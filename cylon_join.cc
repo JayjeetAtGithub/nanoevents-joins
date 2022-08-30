@@ -33,9 +33,11 @@ int main(int argc, char *argv[]) {
 
   std::cout << "Reading table 1\n";
   first_table = cylon::io::ReadParquet(ctx, argv[1]).ValueOrDie();
+  std::cout << first_table->schema()->ToString() << std::endl;
 
   std::cout << "Reading table 2\n";
   second_table = cylon::io::ReadParquet(ctx, argv[2]).ValueOrDie();
+  std::cout << second_table->schema()->ToString() << std::endl;
 
   auto read_end_time = std::chrono::steady_clock::now();
 
