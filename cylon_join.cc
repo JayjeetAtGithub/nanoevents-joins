@@ -21,7 +21,7 @@
 #include <cylon/io/arrow_io.hpp>
 
 int main(int argc, char *argv[]) {
-  if (argc < 3) {
+  if (argc < 4) {
     LOG(ERROR) << "There should be two arguments with paths to parquet files";
     return 1;
   }
@@ -34,6 +34,8 @@ int main(int argc, char *argv[]) {
   std::cout << "Reading table 1\n";
   first_table = cylon::io::ReadParquet(ctx, argv[1]).ValueOrDie();
   std::cout << first_table->schema()->ToString() << std::endl;
+
+  std::cout << "\n\n\n\n\n\n\n";
 
   std::cout << "Reading table 2\n";
   second_table = cylon::io::ReadParquet(ctx, argv[2]).ValueOrDie();
@@ -52,8 +54,7 @@ int main(int argc, char *argv[]) {
                                                      "l_",
                                                      "r_");
 
-  std::cout << first_table->schema()->ToString() << std::endl;
-  std::cout << first_table->GetColumnByName("Electron_dxy")->ToString() << std::endl;
+  std::cout << second_table->GetColumnByName(argv[3])->ToString() << std::endl;
 
   auto status = cylon::join::JoinTables(first_table, second_table, join_config, &joined);
 
@@ -71,7 +72,7 @@ int main(int argc, char *argv[]) {
                 join_end_time - read_end_time).count() << "[ms]";
 
   std::cout << joined->schema()->field_names().size() << std::endl;
-  std::cout << joined->GetColumnByName("Electron_dxy")->ToString() << std::endl;
+  std::cout << joined->GetColumnByName(argv[3])->ToString() << std::endl;
 
   ctx->Finalize();
   return 0;
