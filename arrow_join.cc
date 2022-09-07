@@ -108,8 +108,8 @@ arrow::Status DoHashJoin() {
                         cp::MakeExecNode("scan", plan.get(), {}, r_scan_node_options));
 
   arrow::compute::HashJoinNodeOptions join_opts{arrow::compute::JoinType::INNER,
-                                                /*in_left_keys=*/{"run"},
-                                                /*in_right_keys=*/{"run"},
+                                                /*in_left_keys=*/{"run", "luminosityBlock", "event"},
+                                                /*in_right_keys=*/{"run", "luminosityBlock", "event"},
                                                 /*filter*/ arrow::compute::literal(true),
                                                 /*output_suffix_for_left*/ "_l",
                                                 /*output_suffix_for_right*/ "_r"};
